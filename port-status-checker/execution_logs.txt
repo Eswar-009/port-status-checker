@@ -1,0 +1,26 @@
+PORT STATUS CHECKER - SAMPLE EXECUTION LOG
+
+Command:
+python port_checker.py 127.0.0.1 1 100
+
+Sample output:
+=============================================================
+                 PORT STATUS CHECKER
+=============================================================
+Resolved Target IP: 127.0.0.1
+
+Target Host : 127.0.0.1
+Port Range  : 1-100
+Timeout     : 1.0 seconds
+
+-----------------------------------------------------------------
+PORT      STATUS         SERVICE
+-----------------------------------------------------------------
+22        CLOSED         ssh
+80        CLOSED         http
+443       CLOSED         https
+-----------------------------------------------------------------
+Scan completed.
+=============================================================
+
+Note: Actual results depend on services running on the tested authorized host.
